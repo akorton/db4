@@ -1,0 +1,50 @@
+.start-page {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 100vmin;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.error {
+  color: red;
+  font-size: 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.task-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tech-interview-result {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
